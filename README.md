@@ -25,6 +25,8 @@ scipy = [
 
 ## Issues & Help Wanted
 
+## Scipy
+
 There is an issue with `scipy`. If you install current scipy from `wheels/scipy...`
 you may see an error
 
@@ -35,4 +37,4 @@ ImportError: dlopen(.venv/lib/python3.9/site-packages/scipy/special/_ufuncs.cpyt
  in .venv/lib/python3.9/site-packages/scipy/special/_ufuncs.cpython-39-darwin.so
 ```
 
-Help wanted resolving this problem. The closest issue found is [scipy#5093](https://github.com/scipy/scipy/issues/5093)
+Help wanted with resolving this problem. The closest issue found is [scipy#5093](https://github.com/scipy/scipy/issues/5093)
