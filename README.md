@@ -1,9 +1,9 @@
-# ARM-ready machine learning packages
+# ARM python packages
 
-This repository contains pre-compiled for M1 packages. 
+This repository contains pre-compiled packages for arm64. 
 
-The idea of this repo is to have one storage for the packages and then
-just include them as urls in your project's package manager.
+The idea of this repo is to have one storage for the packages (while they are not ready in their main repositories)
+with the ability to include them as urls in your project's package manager.
 
 Examples of usage of the libraries with the common package managers.
 
