@@ -36,5 +36,5 @@ Please, feel free to reach us out if you find more elegant way of doing the inst
 Scipy is not arm64-ready now. Read more about the status of Scipy in
 [issue comment 1](https://github.com/scipy/scipy/issues/13409#issuecomment-902761019).
 
-What actually works is the pre-build from anaconda. [Read here](https://github.com/scipy/scipy/issues/13409#issuecomment-904548388).
+:white_check_mark: What actually works is the pre-build from anaconda. [Read here](https://github.com/scipy/scipy/issues/13409#issuecomment-904548388).
 
