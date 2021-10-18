@@ -37,4 +37,5 @@ ImportError: dlopen(.venv/lib/python3.9/site-packages/scipy/special/_ufuncs.cpyt
  in .venv/lib/python3.9/site-packages/scipy/special/_ufuncs.cpython-39-darwin.so
 ```
 
-Help wanted with resolving this problem. The closest issue found is [scipy#5093](https://github.com/scipy/scipy/issues/5093)
+Help wanted with resolving this problem. Read the full [issue thread regarding build](https://github.com/scipy/scipy/issues/13409)
+in the Scipy repo.
