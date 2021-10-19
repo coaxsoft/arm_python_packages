@@ -29,12 +29,22 @@ scikit-learn-m1 = {path = ".wheels/scikit_learn-1.1.dev0-cp39-cp39-macosx_11_0_u
 
 Please, feel free to reach us out if you find more elegant way of doing the installation.
 
-## Issues & Help Wanted
+## Comments on packages
 
-## Scipy
+### Scipy
 
 Scipy is not arm64-ready now. Read more about the status of Scipy in
 [issue comment 1](https://github.com/scipy/scipy/issues/13409#issuecomment-902761019).
 
-:white_check_mark: What actually works is the pre-build from anaconda. [Read here](https://github.com/scipy/scipy/issues/13409#issuecomment-904548388).
+:white_check_mark: Anaconda has pre-built `Scipy` for arm64. 
+[Read here](https://github.com/scipy/scipy/issues/13409#issuecomment-904548388).
 
+### XGBoost
+
+There is pre-built `xgboost==1.6.0dev` package wheel. But you can build it yourself, version `1.5.0rc1`
+can be installed on M1. [Read more here](https://github.com/dmlc/xgboost/issues/7260).
+
+Ensure that you have `cmake` installed.
+
+1. `brew install cmake`
+2. `pip install xgboost==1.5.0rc1`
