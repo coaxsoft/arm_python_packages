@@ -5,8 +5,6 @@ This repository contains pre-compiled packages for arm64.
 The idea of this repo is to have one storage for the packages (while they are not ready in their main repositories)
 with the ability to include them as urls in your project's package manager.
 
-Examples of usage of the libraries with the common package managers.
-
 `scikit-learn` now has native support of ARM :white_check_mark:
 
 ## Comments on packages
