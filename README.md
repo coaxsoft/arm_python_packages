@@ -21,6 +21,6 @@ Ensure that you have `cmake` installed.
 
 ### Torchtext
 
-While `pytorch` has native support of ARM, their subpackage `torchtext` is not.
+While `pytorch` has native support of ARM, their subpackage `torchtext` has not.
 
 There is pre-build wheel but you can build it yourself following torchtext's build [instructions](https://github.com/pytorch/text#building-from-source).
